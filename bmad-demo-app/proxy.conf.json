@@ -1,0 +1,11 @@
+{
+  "/api/rss": {
+    "target": "https://www.codecentric.de",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/rss": "/rss/feed.xml"
+    },
+    "logLevel": "debug"
+  }
+}

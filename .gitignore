@@ -1,0 +1,30 @@
+# BMAD Ephemeral Files
+.bmad-ephemeral/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Angular/Node - bmad-demo-app specific
+bmad-demo-app/node_modules/
+bmad-demo-app/dist/
+bmad-demo-app/.angular/
+bmad-demo-app/.sass-cache/
+bmad-demo-app/connect.lock
+bmad-demo-app/coverage/
+bmad-demo-app/libpeerconnection.log
+bmad-demo-app/npm-debug.log
+bmad-demo-app/yarn-error.log
+bmad-demo-app/testem.log
+bmad-demo-app/typings/
+
+# Environment
+bmad-demo-app/.env
+bmad-demo-app/.env.local
